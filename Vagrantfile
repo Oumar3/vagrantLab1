@@ -18,7 +18,6 @@ Vagrant.configure("2") do |config|
   config.vm.provider "virtualbox" do |vb|
     # Allouer 2 Go de mémoire
     vb.memory = "2048"
-
   end
 
   #---------------------------------------------------------------------------------
